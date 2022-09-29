@@ -15,7 +15,7 @@ html {
   padding-left: var(--padding-left);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   body {
     font-size: var(--font-size);
     text-align: var(--text-align);
@@ -85,7 +85,7 @@ html {
   }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 769px) {
   body {
     font-size: var(--font-size);
     text-align: var(--text-align);
@@ -153,6 +153,7 @@ html {
     width: 95%;
     height: 390px;
     border-radius: 20px;
+    object-fit: cover;
   }
 
   img:hover {
