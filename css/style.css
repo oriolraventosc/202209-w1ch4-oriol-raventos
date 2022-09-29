@@ -55,6 +55,7 @@ html {
     background-color: #ffff;
     border-color: var(--color-main);
     border: 1px;
+    color: var(--color-main);
   }
 
   .container {
