@@ -51,7 +51,7 @@ html {
     color: #ffff;
   }
 
-  div {
+  .container {
     display: flex;
     justify-content: center;
     margin-top: 3.3rem;
@@ -63,14 +63,14 @@ html {
     border-radius: 20px;
   }
 
-  div h3 {
+  .container__title {
     position: absolute;
     top: 7rem;
     font-size: 15px;
     color: #ffff;
   }
 
-  div p {
+  .container__activity {
     top: 8.1rem;
     font-size: 1.5rem;
     position: absolute;
