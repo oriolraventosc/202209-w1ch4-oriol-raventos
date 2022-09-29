@@ -51,6 +51,12 @@ html {
     color: #ffff;
   }
 
+  .button--dark:hover {
+    background-color: #ffff;
+    border-color: var(--color-main);
+    border: 1px;
+  }
+
   .container {
     display: flex;
     justify-content: center;
@@ -75,5 +81,100 @@ html {
     font-size: 1.5rem;
     position: absolute;
     color: #ffff;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  body {
+    font-size: var(--font-size);
+    text-align: var(--text-align);
+  }
+
+  .main-header {
+    margin-top: 4rem;
+    position: relative;
+  }
+
+  .header-title {
+    font-size: 1.5rem;
+    text-align: left;
+    color: var(--color-main);
+    padding-left: 5px;
+  }
+
+  h2 {
+    font-size: 3rem;
+    text-align: left;
+    margin: var(--margin);
+    margin-top: 10px;
+    padding-left: 5px;
+  }
+
+  .main-header button.button.button--dark {
+    position: absolute;
+    right: 9px;
+    bottom: 15px;
+  }
+
+  button {
+    border: none;
+    font-family: var(--font-family);
+    width: 8rem;
+    height: 3rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    margin-top: 2.4rem;
+    cursor: pointer;
+  }
+
+  .button--dark {
+    background-color: var(--color-main);
+    color: #ffff;
+  }
+
+  .button--dark:hover {
+    background-color: #ffff;
+    border-color: var(--color-main);
+    border: 2px solid var(--color-main);
+    color: var(--color-main);
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.3rem;
+    position: relative;
+  }
+
+  img {
+    width: 95%;
+    height: 390px;
+    border-radius: 20px;
+  }
+
+  img:hover {
+    filter: invert(20%) sepia(10%) hue-rotate(353deg) saturate(100%);
+  }
+
+  .container__title {
+    visibility: hidden;
+    position: absolute;
+    top: 9rem;
+    font-size: 1.8vw;
+    color: #ffff;
+  }
+
+  .container__activity {
+    visibility: hidden;
+    top: 11rem;
+    font-size: 2.9vw;
+    position: absolute;
+    color: #ffff;
+  }
+
+  .activities {
+    display: flex;
   }
 }
